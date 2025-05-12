@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Pascual Vila</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- ✅ Font Awesome para los íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">Pascual Vila<span>.</span></h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hola, soy <span class="neon">Pascual Vila</span></h2>
+    <p>Desarrollador web enfocado en experiencias modernas y funcionales.</p>
+
+    <!-- ✅ Íconos de redes -->
+    <div class="social-links">
+      <a href="https://github.com/pascual143" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/pascual-vila-web-developer/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h3 class="section-title">Sobre mí</h3>
+    <p>
+      Desarrollador Full Stack con 2 años de experiencia práctica en entornos reales utilizando React, Node, Python, Flask y SQL. Experiencia tanto en frontend como en backend, con conocimiento de diseño gráfico y gran capacidad de adaptación. Actual consultor en integración de datos, buscando volver al desarrollo de software con foco en frontend y tecnologías modernas.
+    </p>
+  </section>
+
+  <section id="projects" class="section">
+    <h3 class="section-title">Proyectos</h3>
+    <div class="projects">
+      <div class="project-card">
+        
+        <a href="http://todotutorial.com" target="_blank" rel="noopener noreferrer">
+          <h4>Proyecto 1. Todotutorial</h4>
+          <p>E-learning platform. Nextjs</p>
+        </a>
+      </div>
+      <div class="project-card">        
+        <a href="https://pascual143.github.io/MUNCH-MERN-GA-project-3/" target="_blank" rel="noopener noreferrer">
+          <h4>Proyecto 2. Munch</h4>
+          <p>Registro de Menus. MERN stack</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h3 class="section-title">Otros Proyectos</h3>
+    <div class="projects">
+      <div class="project-card">        
+        <a href="https://pascual143.github.io/TandGo/" target="_blank" rel="noopener noreferrer"><h4>Website Tandgo</h4></a>
+      </div>
+      <div class="project-card">        
+        <a href="https://pascual143.github.io/Memory-Game-GA/" target="_blank" rel="noopener noreferrer"><h4>Memory Game</h4></a>
+      </div>
+      <div class="project-card">        
+        <a href="https://pascual143.github.io/Rock-Paper-Scissors-GA/" target="_blank" rel="noopener noreferrer"><h4>Rock-Paper-Scissors</h4></a>
+      </div>
+      <div class="project-card">        
+        <a href="https://pascual143.github.io/Rock-Paper-Scissors-GA/" target="_blank" rel="noopener noreferrer"><h4>Rock-Paper-Scissors</h4></a>
+      </div>
+      <div class="project-card">        
+        <a href="https://pascual143.github.io/IssueTracker-html-css-js/" target="_blank" rel="noopener noreferrer"><h4>Issue Tracker</h4></a>
+      </div>
+      <div class="project-card">       
+        <a href="https://pascual143.github.io/CONNECT4-GA-WDI-Project-1/" target="_blank" rel="noopener noreferrer"><h4>Connect 4</h4></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h3 class="section-title">Contacto</h3>
+    <form action="https://formspree.io/f/xblozjrw" method="POST">
+  <input type="text" name="name" placeholder="Tu nombre" required />
+  <input type="email" name="email" placeholder="Tu correo" required />
+  <textarea name="message" placeholder="Tu mensaje..." required></textarea>
+  <button type="submit">Enviar</button>
+</form>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tu Nombre. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
